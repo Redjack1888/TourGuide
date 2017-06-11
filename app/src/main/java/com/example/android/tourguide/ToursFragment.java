@@ -26,7 +26,7 @@ public class ToursFragment extends Fragment {
         // Find and inflate ListView to use with adapter
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
 
-        // Create a list of Sights
+        // Create a list of Guided Tours
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
 
         // Populate item list
@@ -60,26 +60,6 @@ public class ToursFragment extends Fragment {
                 2, getResources().getString(R
                 .string.the_blood_and_tears_address), getResources().getString(R.string.the_blood_and_tears_text) ,
                 getResources().getString(R.string.the_blood_and_tears_price), getResources().getString(R.string.unit_hours)));
-//        tourItems.add(new TourItem(R.drawable.tour_forum, getResources().getString(R.string
-//                .tour_forum), getResources().getString(R.string.phone_number_tour_forum),
-//                4, getResources().getString(R
-//                .string.address_tour_forum), getResources().getString(R.string.subtext_tour_forum) ,
-//                getResources().getString(R.string.price_range_tour_forum), getResources().getString(R.string.unit_hours)));
-//        tourItems.add(new TourItem(R.drawable.tour_countryside, getResources().getString(R.string
-//                .tour_countryside), getResources().getString(R.string.phone_number_tour_countryside),
-//                10, getResources().getString(R
-//                .string.address_tour_countryside), getResources().getString(R.string.subtext_tour_colosseum) ,
-//                getResources().getString(R.string.price_range_tour_countryside), getResources().getString(R.string.unit_hours)));
-//        tourItems.add(new TourItem(R.drawable.tour_museums, getResources().getString(R.string
-//                .tour_museums), getResources().getString(R.string.phone_number_tour_museums),
-//                2, getResources().getString(R
-//                .string.address_tour_museums), getResources().getString(R.string.subtext_tour_museums) ,
-//                getResources().getString(R.string.price_range_tour_museums), getResources().getString(R.string.unit_days)));
-//        tourItems.add(new TourItem(R.drawable.tour_crypts, getResources().getString(R.string
-//                .tour_crypts), getResources().getString(R.string.phone_number_tour_crypts),
-//                4, getResources().getString(R
-//                .string.address_tour_crypts), getResources().getString(R.string.subtext_tour_crypts) ,
-//                getResources().getString(R.string.price_range_tour_crypts), getResources().getString(R.string.unit_hours)));
 
         // Create an {@link CustomItemAdapter}, whose data source is a list of {@link TourItem}s.
         // The adapter knows how to create list items for each item in the list.

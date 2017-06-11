@@ -8,6 +8,12 @@
     <string name="schedule_times">19:00 – 21:00\n21:45 – 23:45\n19:00 – 21:00\n19:00 – 21:00</string>
     <string name="mailAddress">decmchugh@yahoo.com</string>
     <string name="weburl">http://www.shockinglondon.com/</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="guided_tours">Guided Tours</string>
+    <string name="people">People</string>
+    <string name="food_amp_drinks"><![CDATA[Food & Drinks]]></string>
+    <string name="locations">Locations</string>
+    <string name="bloody_london_tour_s_features">Bloody London Tour\'s Features</string>
 
     <!-- Category names for each fragment -->
     <string name="category_locations">Locations</string>
@@ -19,7 +25,7 @@
     <string name="unit_hours">hrs</string>
 
     <!-- Strings for LOCATIONS -->
-    <string name="about_locations">A list of Historical London\'s locations.\n\nFrom Roman Empire to modern days.\n\nPlaces where started the Plague of 1665, where Templar Knights built theie British Headquarters, places where Jack The Ripper left some clues... and much more</string>
+    <string name="about_locations">A list of Historical London\'s locations.\n\nFrom Roman Empire to modern days.\n\nPlaces where started the Plague of 1665, where Templar Knights built theie British Headquarters, places where Jack The Ripper left some clues… and much more</string>
     <!-- Titles -->
     <string name="drury_lane_plague">Drury Lane:\nfirst 1665 plague deaths</string>
     <string name="goulston_street_graffiti">Goulston Street graffiti</string>
@@ -158,14 +164,5 @@
     <string name="the_plague_tour_price">£9.50 full price\n£7.50 concessions</string>
     <string name="london_ghost_walk_price">£10 Per Person</string>
     <string name="the_blood_and_tears_price">£10 for adults\n£8 for children aged 12-14</string>
-
-
-    <string name="contact_us">Contact Us</string>
-    <string name="guided_tours">Guided Tours</string>
-    <string name="people">People</string>
-    <string name="food_amp_drinks"><![CDATA[Food & Drinks]]></string>
-    <string name="locations">Locations</string>
-    <string name="bloody_london_tour_s_features">Bloody London Tour\'s Features</string>
-
 
 </resources>

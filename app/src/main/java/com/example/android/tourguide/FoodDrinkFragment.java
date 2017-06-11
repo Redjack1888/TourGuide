@@ -26,7 +26,7 @@ public class FoodDrinkFragment extends Fragment {
         // Find and inflate ListView to use with adapter
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
 
-        // Create a list of Sights
+        // Create a list of Drink & Food Locations
         final ArrayList<TourItem> tourItems = new ArrayList<TourItem>();
 
         // Populate item list
