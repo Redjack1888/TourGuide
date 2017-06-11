@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="@dimen/cornerRadius"
+        android:layout_marginLeft="@dimen/m_p_16"
+        android:layout_marginRight="@dimen/m_p_16"
+        android:layout_marginTop="@dimen/m_p_4"
+        android:layout_marginBottom="@dimen/m_p_4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/image"
+                    style="@style/tourItemImages"
+                    android:layout_width="@dimen/height_width_Image"
+                    android:layout_height="@dimen/height_width_Image"
+                    android:layout_marginLeft="@dimen/m_p_16"
+                    android:layout_marginTop="@dimen/m_p_16"
+                    android:src="@mipmap/ic_launcher" />
+
+                <LinearLayout
+                    style="@style/container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/title"
+                        style="@style/mainTitleText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Title" />
+
+                    <TextView
+                        android:id="@+id/subtext"
+                        style="@style/shortText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="Subtext" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/m_p_16">
+
+                <ImageView
+                    android:id="@+id/address_icon"
+                    style="@style/icons"
+                    android:layout_marginLeft="@dimen/m_p_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_location_on" />
+
+                <TextView
+                    android:id="@+id/address"
+                    style="@style/iconsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Address" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/m_p_16">
+
+                <ImageView
+                    android:id="@+id/phone_icon"
+                    style="@style/icons"
+                    android:layout_marginLeft="@dimen/m_p_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_local_phone" />
+
+                <TextView
+                    android:id="@+id/phone_number"
+                    style="@style/iconsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Phone Number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/m_p_16">
+
+                <ImageView
+                    android:id="@+id/price_icon"
+                    style="@style/icons"
+                    android:layout_marginLeft="@dimen/m_p_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_credit_card" />
+
+                <TextView
+                    android:id="@+id/price_range"
+                    style="@style/iconsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Price Range" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/m_p_16"
+                android:layout_marginBottom="@dimen/m_p_16"
+                >
+
+                <ImageView
+                    android:id="@+id/duration_icon"
+                    style="@style/icons"
+                    android:layout_marginLeft="@dimen/m_p_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_access_time" />
+
+                <TextView
+                    android:id="@+id/duration"
+                    style="@style/iconsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Duration" />
+
+                <TextView
+                    android:id="@+id/duration_unit"
+                    style="@style/iconsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    tools:text="Duration Unit" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

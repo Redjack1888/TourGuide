@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Bloody London Tour</string>
+    <string name="title">Bloody London Tour\'s Book</string>
+    <string name="about_card">London\'s strangest and scariest people and places are brought vividly to life in this walk through the capital\'s dark side. Featuring serial killers, psychopaths, gangsters, ghosts and martyrs, here are fifty true stories from all corners of the city guaranteed to chill your bones.\n</string>
+    <string name="shop">Departing from Barbican Station\nEC1A 4JA - London</string>
+    <string name="phoneNumber">+44 79 0574 6733</string>
+    <string name="schedule_days">Wed\n\nThu\nFri</string>
+    <string name="schedule_times">19:00 – 21:00\n21:45 – 23:45\n19:00 – 21:00\n19:00 – 21:00</string>
+    <string name="mailAddress">decmchugh@yahoo.com</string>
+    <string name="weburl">http://www.shockinglondon.com/</string>
+
+    <!-- Category names for each fragment -->
+    <string name="category_locations">Locations</string>
+    <string name="category_food">Food\n&amp; Drinks</string>
+    <string name="category_people">Notorious\nPeople</string>
+    <string name="category_tours">Guided\nTours</string>
+
+    <!-- Strings for Duration Unit TextView -->
+    <string name="unit_hours">hrs</string>
+
+    <!-- Strings for LOCATIONS -->
+    <string name="about_locations">A list of Historical London\'s locations.\n\nFrom Roman Empire to modern days.\n\nPlaces where started the Plague of 1665, where Templar Knights built theie British Headquarters, places where Jack The Ripper left some clues... and much more</string>
+    <!-- Titles -->
+    <string name="drury_lane_plague">Drury Lane:\nfirst 1665 plague deaths</string>
+    <string name="goulston_street_graffiti">Goulston Street graffiti</string>
+    <string name="gladiators_arena">The Gladiators Arena</string>
+    <string name="temple_church">Temple Church:\nKnights Templar headquarters in Britain</string>
+    <string name="st_andrew">St Andrew-by-the-Wardrobe</string>
+    <string name="mithraic_temple">Mithraic Temple</string>
+
+    <!-- Addresses -->
+    <string name="drury_lane_plague_address">Drury Lane, WC2B.\nTube: Covent Garden, Holborn.</string>
+    <string name="goulston_street_graffiti_address">44 – 46 Goulston St,  E1 7TP\nTube: Aldgate East.</string>
+    <string name="gladiators_arena_address">Guildhall Yard, EC2V 5AE\nTube: St Paul</string>
+    <string name="temple_church_address">Temple - City of London EC4Y 7BB\nTube: Blackfriars</string>
+    <string name="st_andrew_address">St Andrew’s Hill, EC4V 5DE\nTube: Blackfriars</string>
+    <string name="mithraic_temple_address">38 Walbrook, EC4N 8BN\nTube: Mansion House</string>
+
+    <!-- Short Text Description -->
+    <string name="drury_lane_plague_text">Today Drury Lane is an ordinary street close to the bustling Covent Garden district. Here is where the 1665 London plague effectively began.</string>
+    <string name="goulston_street_graffiti_text">Here the world\'s most notorious serial killer - Jack the Ripper -  once left some graffiti which has been endlessly debated and is still mysterious. 108–109 Wentworth Model Dwellings is now the takeaway section of a café called Happy Days.</string>
+    <string name="gladiators_arena_text">Despite having been Roman London\'s biggest building, the London amphitheatre had been missing for 100 years until it was finally discovered here in 1988. There is not a huge amount to be seen but when what you can see is pieced together with what we know about gladiators from elsewhere the whole picture becomes fascinating – and certainly bloody.</string>
+    <string name="temple_church_text">The Temple Church is a late 12th-century church in the City of London located between Fleet Street and the River Thames, built by the Knights Templar as their English headquarters. During the reign of King John (1199–1216) it served as the royal treasury, supported by the role of the Knights Templars as proto-international bankers.</string>
+    <string name="st_andrew_text">St Andrew-by-the-Wardrobe was the last City church built by Christopher Wren. It was completed in 1695, so it is externally over 300 years old. It is not a beautiful church but it is an important one for its Shakespearean memorials and connections. The church is reputedly haunted.</string>
+    <string name="mithraic_temple_text">The butchered remains of a temple of a vanquished cult that was once a rival to the Christianity and finally destroyed. The cult was devoted to a god called Mithras, a sun god.</string>
+
+    <!-- Price Range -->
+    <string name="drury_lane_plague_price">FREE</string>
+    <string name="goulston_street_graffiti_price">Free</string>
+    <string name="gladiators_arena_price">Free</string>
+    <string name="temple_church_price">£3.</string>
+    <string name="st_andrew_price">FREE</string>
+    <string name="mithraic_temple_price">Free</string>
+
+    <!-- Strings for FOOD & DRINKS -->
+    <string name="about_food">A list of pubs and restaurants where some famous crime happened.\n\nPlaces like pubs and restaurant were a central part of the life in the british social life. So it\'s not strange that some bloody events happened here too.</string>
+    <!-- Title -->
+    <string name="princess_louise_pub">Princess Louise pub</string>
+    <string name="the_blind_beggar"> The Blind Beggar</string>
+    <string name="the_fortune_of_war">The Fortune of War</string>
+    <string name="ten_bells">Ten Bells</string>
+    <string name="the_magdala">The Magdala</string>
+    <string name="the_pembroke">The Pembroke</string>
+
+    <!-- Address -->
+    <string name="princess_louise_pub_address">208 High Holborn,\nLondon WC1V 7EP</string>
+    <string name="the_blind_beggar_address">337 Whitechapel Rd,\nLondon E1 1BU</string>
+    <string name="the_fortune_of_war_address">Junction of Giltspur Street\nand Cock Lane</string>
+    <string name="ten_bells_address">84 Commercial St,\nSpitalfields, London E1 6LY</string>
+    <string name="the_magdala_address">2A S Hill Park,\nHampstead, London NW3 2SB</string>
+    <string name="the_pembroke_address">261 Old Brompton Rd,\nKensington, London SW5 9JA</string>
+
+    <!-- Short Text Description -->
+    <string name="princess_louise_pub_text">This Victorian bar is one of the places in which serial killer Dennis Nilsen used to pick up his victims in the late 1970s and early 1980s. </string>
+    <string name="the_blind_beggar_text"> The Blind Beggar, was a haunt of gangsters in the 1950s and 1960s; and it was where Ronnie Kray, one half of the infamous Kray twins, shot dead rival George Cornell 1966 – a crime for which he was convicted and sentenced, along with his brother, to life imprisonment. </string>
+    <string name="the_fortune_of_war_text">The Fortune of War pub, was infamous for its connections with London’s bodysnatchers.</string>
+    <string name="ten_bells_text">The Ten Bells is a pub in Spitalfields in the East End of London. It is sometimes cited as being notable for its association with two victims of Jack the Ripper.</string>
+    <string name="the_magdala_text">The Magdala, also known as Magdala Tavern, was a pub named after the British victory in the Battle of Magdala. It later became famous as the pub where Ruth Ellis, the last woman to be executed in Great Britain, shot her boyfriend in 1955.</string>
+    <string name="the_pembroke_text">The Pembroke has been a gastropub since January 2009, but in its former incarnation,the Coleherne, is the only London pub known to have been frequented by three serial killers.</string>
+
+    <!-- Price Range -->
+    <string name="princess_louise_pub_price">$$</string>
+    <string name="the_blind_beggar_price">$$$</string>
+    <string name="the_fortune_of_war_price">Not Available</string>
+    <string name="ten_bells_price">$$</string>
+    <string name="the_magdala_price">Not Available</string>
+    <string name="the_pembroke_price">$$$$</string>
+
+    <!-- Strings for NOTORIOUS PEOPLE -->
+    <string name="about_people">A list of places linked to specifice notorious people.\n\nWhere Aleister Crowley lives? Where Roberto Calvi died? Where Lord Lucan was living when disappeared?</string>
+
+    <!-- Titles -->
+    <string name="crowley_apartments">Aleister Crowley\'s former apartments</string>
+    <string name="lucan_home">Lord Lucan\'s home</string>
+    <string name="dr_crippen_home">Dr. Crippen\'s home</string>
+    <string name="john_haigh_work">John Haigh worked here</string>
+    <string name="calvi_bridge">Roberto Calvi:\nDeath of God\'s Banker</string>
+
+    <!-- Addresses -->
+    <string name="crowley_apartments_address">67–69 Chancery Ln,\nHolborn, WC2A 1AF</string>
+    <string name="lucan_home_address">72A Elizabeth St,\nBelgravia, SW1W 9PD</string>
+    <string name="dr_crippen_home_address">39 Hilldrop Crescent,\nHolloway, N7 0JL</string>
+    <string name="john_haigh_work_address">79 Gloucester Road,\nKensington, SW7 4PG</string>
+    <string name="calvi_bridge_address">Blackfriar\'s Bridge</string>
+
+    <!-- Short Text Description -->
+    <string name="crowley_apartments_text">The whole of the original building, including Crowley\’s apartments, was demolished in 2005 but this is where Aleister Crowley lived for about a year (1898–1899) when he was 23 years old. Here he claimed to have accidentally raised 316 "devils" one evening.</string>
+    <string name="lucan_home_text">After separating from Lady Lucan in 1973, Lord Lucan lived at No 5 Eaton Row before moving here. It\'s around the corner from the home of Lady Lucan and scene of her attempted murder and the murder of her nanny.\nThis was from where he fought a vicious custody battle with his wife following their split.</string>
+    <string name="dr_crippen_home_text">This is where Dr. Crippen murdered, mutilated and buried his wife.</string>
+    <string name="john_haigh_work_text">The acid bath murderer, John George Haigh, worked here at 79 Gloucester Road. He confessed to six murders and claimed to have drunk the blood of some of his victims, leading the press to dub him the Vampire of Kensington.</string>
+    <string name="calvi_bridge_text">Roberto Calvi was an Italian banker known to the press as God\'s Banker, because of his close association with the Vatican. On the morning of June 17th 1982, Calvi was found hanging from Blackfriars bridge. Suicide was initially suspected but Vatican, Masonic and Mafiosi links bere embroiled in the ensuing investigations.</string>
+
+    <!-- Price Range -->
+    <string name="crowley_apartments_price">FREE</string>
+    <string name="lucan_home_price">FREE</string>
+    <string name="dr_crippen_home_price">FREE</string>
+    <string name="john_haigh_work_price">FREE</string>
+    <string name="calvi_bridge_price">FREE</string>
+
+    <!-- Strings for GUIDED TOURS -->
+    <string name="about_tours">A list of most famous and creepiest Guided Tours of London.\n\nWith the help of history and true_crime experts you will be able to discover all about serial killers, mob gangstars, ghosts and diseases that terrorized London among the centuries.</string>
+    <!-- Title -->
+    <string name="the_krays_tour">The Krays Tour</string>
+    <string name="sweeney_todd_tour">Sweeney Todd:\nThe Demon Barber Tour</string>
+    <string name="jack_the_ripper_tour">Jack the Ripper Tour</string>
+    <string name="the_plague_tour">The Plague</string>
+    <string name="london_ghost_walk_tour">London Ghost Walk Tour</string>
+    <string name="the_blood_and_tears_walk_tour">The Blood and Tears\nWalk Tour</string>
+
+    <!-- Phone Number-->
+    <string name="the_krays_tour_phone">+44 77 9508 0615</string>
+    <string name="sweeney_todd_tour_phone">+44 78 5231 0893</string>
+    <string name="jack_the_ripper_phone">+44 78 0306 7544</string>
+    <string name="the_plague_tour_phone">+44 75 8300 0223</string>
+    <string name="london_ghost_walk_phone">+44 20 8530 8443</string>
+    <string name="the_blood_and_tears_phone">+44 79 0574 6733</string>
+
+    <!-- Address -->
+    <string name="the_krays_tour_address">Whitechapel Underground Station</string>
+    <string name="sweeney_todd_tour_address">Temple Underground Station</string>
+    <string name="jack_the_ripper_address">Aldgate East Underground Station</string>
+    <string name="the_plague_tour_address">Tower Hill Underground Station</string>
+    <string name="london_ghost_walk_address">The Lord Raglan Pub\n61 St Martin Le Grand</string>
+    <string name="the_blood_and_tears_address">Barbican Underground Station</string>
+
+    <!-- Short Text Description -->
+    <string name="the_krays_tour_text">Tour in search of London’s most notorious gangsters, Ronnie and Reggie Kray. This unique walking tour delves deep into the murky world of 1960’s London to uncover gangsters, shoot outs, night clubs and murder.</string>
+    <string name="sweeney_todd_tour_text">This gripping walk into London\'s 850 year old mysterious Inner Temple and then out on to London\'s historic Fleet Street captures the spooky and spine tingling essence of the evil and incredible deeds of The Demon Barber of Fleet Street, Sweeney Todd.</string>
+    <string name="jack_the_ripper_text">A gruesome and macabre past lurking beyond the shadows, with murder mysteries and century old secrets just waiting to be found in the notorious East End of London. Jack, the Ripper\'s Autumn of Terror reigned supreme in Victorian London, terrorising residents and tourists from around the world; and to this day, one of the most elusive crimes in history is yet to be solved!</string>
+    <string name="the_plague_tour_text">Half the population of London was wiped out during the Black Death in 1348 and 100,000 people were killed in the capital during the Great Plague of London in 1665. Apart from World War II no other events have come close to having such a devastating effect on London during its two-thousand year history.</string>
+    <string name="london_ghost_walk_text">If you want to encounter the darker recesses of haunted London, then be sure to join the only Ghost Walks to be led by Richard Jones - an internationally renowned authority on the ghosts of London who has written 22 books on the supernatural and who has been conducting walks around the Capital\'s most haunted places since 1982.</string>
+    <string name="the_blood_and_tears_text">The tour covers the dark side of London\'s history and uses a combination of detailed research and acting skills to try to create stories that are immediate, vivid, sometimes horrifying, sometimes frightening, but hopefully always interesting and real.</string>
+
+    <!-- Price Range -->
+    <string name="the_krays_tour_price">£12.00 per person</string>
+    <string name="sweeney_todd_tour_price">£13.33 per person</string>
+    <string name="jack_the_ripper_price">£12.50 per person</string>
+    <string name="the_plague_tour_price">£9.50 full price\n£7.50 concessions</string>
+    <string name="london_ghost_walk_price">£10 Per Person</string>
+    <string name="the_blood_and_tears_price">£10 for adults\n£8 for children aged 12-14</string>
+
+
+    <string name="contact_us">Contact Us</string>
+    <string name="guided_tours">Guided Tours</string>
+    <string name="people">People</string>
+    <string name="food_amp_drinks"><![CDATA[Food & Drinks]]></string>
+    <string name="locations">Locations</string>
+    <string name="bloody_london_tour_s_features">Bloody London Tour\'s Features</string>
+
+
+</resources>

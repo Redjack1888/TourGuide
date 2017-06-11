@@ -1,0 +1,122 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@android:color/white</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="expandedappbar" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:shadowDx">-4</item>
+        <item name="android:shadowDy">-4</item>
+    </style>
+
+    <style name="collapsedappbar" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/title</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">@dimen/subtitle</item>
+    </style>
+
+    <style name="text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/m_p_8</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/text</item>
+    </style>
+
+    <style name="icons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/m_p_4</item>
+        <item name="android:paddingLeft">@dimen/m_p_8</item>
+        <item name="android:paddingRight">@dimen/m_p_8</item>
+        <item name="android:paddingTop">@dimen/m_p_4</item>
+        <item name="android:scaleType">fitCenter</item>
+
+    </style>
+
+    <!-- Tabs -->
+    <style name="categoryTabs" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/categoryTabText</item>
+    </style>
+
+    <!-- Tab Text -->
+    <style name="categoryTabText" parent="TextAppearance.Design.Tab">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+<style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+<item name="android:textColor">#A8A19E</item>
+</style>
+
+    <!-- TourItem Images -->
+    <style name="tourItemImages">
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <!-- Containers -->
+    <style name="container">
+        <item name="android:minHeight">@dimen/minHeight_Containers</item>
+        <item name="android:padding">@dimen/m_p_16</item>
+    </style>
+
+    <!-- Main Title Text -->
+    <style name="mainTitleText">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingBottom">@dimen/padding_Text</item>
+    </style>
+
+    <!-- Short Description Text -->
+    <style name="shortText">
+        <item name="android:paddingBottom">@dimen/padding_Text</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+
+    </style>
+
+    <!-- Icons -->
+    <style name="icons2">
+        <item name="android:paddingBottom">@dimen/padding_Icons</item>
+        <item name="android:paddingTop">@dimen/padding_Icons</item>
+        <item name="android:paddingRight">@dimen/padding_Icons</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Icons Text -->
+    <style name="iconsText">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
