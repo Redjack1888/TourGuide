@@ -2,8 +2,8 @@ package com.example.android.tourguide;
 
 /**
  * {@link TourItem} represents an item which will be shown in the tour_list layout.
- * It contains an image, a title, a phone number, an address, a duration, a subtext and a price
- * range. This Class will be used to create 3-4 different Objects according to the paramaters in use.
+ * It contains an image, a title, a phone number, an address, a duration, a description and a price.
+ * This Class will be used to create 2 different Objects according to the paramaters in use.
  */
 
 public class TourItem {
@@ -23,11 +23,11 @@ public class TourItem {
     /** Duration for the item (guided tours) */
     private int mDuration = NO_DURATION_PROVIDED;
 
-    /** Subtext with a few words about each item (all categories) */
-    private String mSubtext;
+    /** description with a few words about each item (all categories) */
+    private String mDescription;
 
-    /** Price range for the item (restaurants, guided tours) */
-    private String mPriceRange;
+    /** Price for the item */
+    private String mPrice;
 
     /** Duration Unit type for the item (guided tours) */
     private String mIsHours;
@@ -39,70 +39,50 @@ public class TourItem {
     private static final String NO_PHONE_NUMBER_PROVIDED = "None";
 
     /**
-     * Create a new TourItem object for Sightseeing, Shopping
+     * Create a new TourItem object for LOCATIONS, FOOD&DRINKS, NOTORIOUS PEOPLE
      *
      * @param imageResourceID is the resource ID for the image to be used
      * @param title is the item name
-     * @param address is the address of the sight/locale
-     * @param subtext is the text accompanying the item
-     * @param priceRange is the price range in $ - $$$$
+     * @param address is the address of the place
+     * @param description is the text accompanying the item
+     * @param price is the price in £ - ££££ range
      */
 
     public TourItem(int imageResourceID, String title,
-                    String address, String subtext, String priceRange){
+                    String address, String description, String price){
         mImageResourceID = imageResourceID;
         mTitle = title;
         mAddress = address;
-        mSubtext = subtext;
-        mPriceRange = priceRange;
+        mDescription = description;
+        mPrice = price;
     }
 
     /**
-     * Create a new TourItem object for Restaurants
+     * Create a new TourItem object for GUIDED TOURS
      *
      * @param imageResourceID is the resource ID for the image to be used
      * @param title is the item name
-     * @param phoneNumber is the phone number of the locale
-     * @param address is the address of the sight/locale
-     * @param subtext is the text accompanying the item
-     * @param priceRange is the price range in $ - $$$$
-     */
-
-    public TourItem(int imageResourceID, String title, String phoneNumber,
-                    String address, String subtext, String priceRange){
-        mImageResourceID = imageResourceID;
-        mTitle = title;
-        mPhoneNumber = phoneNumber;
-        mAddress = address;
-        mSubtext = subtext;
-        mPriceRange = priceRange;
-    }
-    /**
-     * Create a new TourItem object for Guided Tours
-     *
-     * @param imageResourceID is the resource ID for the image to be used
-     * @param title is the item name
-     * @param phoneNumber is the phone number of the locale
-     * @param duration is the length of the tour in hours
-     * @param address is the address of the sight/locale
-     * @param subtext is the text accompanying the item
-     * @param priceRange is the price range in $ - $$$$
-     * @param isHours is the type of duration unit (hrs or days)
+     * @param phoneNumber is the phone number of the place
+     * @param duration is the length of the tour in hours or minutes
+     * @param address is the address of the place
+     * @param description is the text accompanying the item
+     * @param priceRange is the price in £ - ££££ range
+     * @param isHours is the type of duration time unit (hrs or min)
      */
 
     public TourItem(int imageResourceID, String title, String phoneNumber, int duration,
-                    String address, String subtext, String priceRange, String isHours){
+                    String address, String description, String priceRange, String isHours){
         mImageResourceID = imageResourceID;
         mTitle = title;
         mPhoneNumber = phoneNumber;
         mDuration = duration;
         mAddress = address;
-        mSubtext = subtext;
-        mPriceRange = priceRange;
+        mDescription = description;
+        mPrice = priceRange;
         mIsHours = isHours;
     }
 
-    /** Methods for getting all the aforementioned variables */
+    /** Methods for getting all the variables */
     public int getmImageResourceID() {
         return mImageResourceID;
     }
@@ -124,12 +104,12 @@ public class TourItem {
         return duration;
     }
 
-    public String getmSubtext() {
-        return mSubtext;
+    public String getmDescription() {
+        return mDescription;
     }
 
-    public String getmPriceRange() {
-        return mPriceRange;
+    public String getmPrice() {
+        return mPrice;
     }
 
     public String isHours() {

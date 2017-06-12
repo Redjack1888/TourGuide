@@ -52,7 +52,7 @@
                         tools:text="Title" />
 
                     <TextView
-                        android:id="@+id/subtext"
+                        android:id="@+id/description"
                         style="@style/shortText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
                     android:src="@drawable/ic_credit_card" />
 
                 <TextView
-                    android:id="@+id/price_range"
+                    android:id="@+id/price"
                     style="@style/iconsText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

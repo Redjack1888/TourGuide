@@ -23,6 +23,7 @@
 
     <!-- Strings for Duration Unit TextView -->
     <string name="unit_hours">hrs</string>
+    <string name="unit_minutes">min</string>
 
     <!-- Strings for LOCATIONS -->
     <string name="about_locations">A list of Historical London\'s locations.\n\nFrom Roman Empire to modern days.\n\nPlaces where started the Plague of 1665, where Templar Knights built theie British Headquarters, places where Jack The Ripper left some clues… and much more</string>
@@ -85,12 +86,12 @@
     <string name="the_pembroke_text">The Pembroke has been a gastropub since January 2009, but in its former incarnation,the Coleherne, is the only London pub known to have been frequented by three serial killers.</string>
 
     <!-- Price Range -->
-    <string name="princess_louise_pub_price">$$</string>
-    <string name="the_blind_beggar_price">$$$</string>
+    <string name="princess_louise_pub_price">££</string>
+    <string name="the_blind_beggar_price">£££</string>
     <string name="the_fortune_of_war_price">Not Available</string>
-    <string name="ten_bells_price">$$</string>
+    <string name="ten_bells_price">££</string>
     <string name="the_magdala_price">Not Available</string>
-    <string name="the_pembroke_price">$$$$</string>
+    <string name="the_pembroke_price">££££</string>
 
     <!-- Strings for NOTORIOUS PEOPLE -->
     <string name="about_people">A list of places linked to specifice notorious people.\n\nWhere Aleister Crowley lives? Where Roberto Calvi died? Where Lord Lucan was living when disappeared?</string>

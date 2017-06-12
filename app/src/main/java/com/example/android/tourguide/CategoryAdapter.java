@@ -27,6 +27,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         mContext = context;
     }
 
+    /**
+     * Return the {@link Fragment} that should be displayed for the given page number.
+     */
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
@@ -46,19 +49,26 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
+            //  LOCATIONS TAB
             return mContext.getString(R.string.category_locations);
         }
         else if (position == 1) {
+            //  FOOD & DRINK TAB
             return mContext.getString(R.string.category_food);
         }
         else if (position == 2) {
+            //  NOTORIOUS PEOPLE TAB
             return mContext.getString(R.string.category_people);
         }
         else {
+            //  GUIDED TOURS TAB
             return mContext.getString(R.string.category_tours);
         }
     }
 
+    /**
+     * Return the total number of pages.
+     */
     @Override
     public int getCount() {
         return 4;

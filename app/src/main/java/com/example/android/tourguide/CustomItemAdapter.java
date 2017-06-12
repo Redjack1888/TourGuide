@@ -94,17 +94,17 @@ public class CustomItemAdapter extends ArrayAdapter<TourItem>{
             durationIconImageView.setVisibility(View.GONE);
         }
 
-        // Find the TextView in the tour_item.xml layout with the ID subtext.
-        TextView subtextTextView = (TextView) tourItemView.findViewById(R.id.subtext);
-        // Get the Subtext from the currentTourItem object and set this text on
-        // the Subtext TextView.
-        subtextTextView.setText(currentTourItem.getmSubtext());
+        // Find the TextView in the tour_item.xml layout with the ID description.
+        TextView descriptionTextView = (TextView) tourItemView.findViewById(R.id.description);
+        // Get the description from the currentTourItem object and set this text on
+        // the description TextView.
+        descriptionTextView.setText(currentTourItem.getmDescription());
 
-        // Find the TextView in the tour_item.xml layout with the ID price_range.
-        TextView priceRangeTextView = (TextView) tourItemView.findViewById(R.id.price_range);
-        // Get the Price Range from the currentWord object and set this text on
-        // the Price Range TextView.
-        priceRangeTextView.setText(currentTourItem.getmPriceRange());
+        // Find the TextView in the tour_item.xml layout with the ID price.
+        TextView priceTextView = (TextView) tourItemView.findViewById(R.id.price);
+        // Get the Price from the currentTourItem object and set this text on
+        // the Price TextView.
+        priceTextView.setText(currentTourItem.getmPrice());
 
         // Find the ImageView in the tour_item.xml layout with the ID image.
         ImageView imageView = (ImageView) tourItemView.findViewById(R.id.image);

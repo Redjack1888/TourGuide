@@ -57,9 +57,9 @@ public class ToursFragment extends Fragment {
                 getResources().getString(R.string.london_ghost_walk_price), getResources().getString(R.string.unit_hours)));
         tourItems.add(new TourItem(R.drawable.the_blood_and_tears_walk_tour, getResources().getString(R.string
                 .the_blood_and_tears_walk_tour), getResources().getString(R.string.the_blood_and_tears_phone),
-                2, getResources().getString(R
+                105, getResources().getString(R
                 .string.the_blood_and_tears_address), getResources().getString(R.string.the_blood_and_tears_text) ,
-                getResources().getString(R.string.the_blood_and_tears_price), getResources().getString(R.string.unit_hours)));
+                getResources().getString(R.string.the_blood_and_tears_price), getResources().getString(R.string.unit_minutes)));
 
         // Create an {@link CustomItemAdapter}, whose data source is a list of {@link TourItem}s.
         // The adapter knows how to create list items for each item in the list.

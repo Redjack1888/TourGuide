@@ -14,15 +14,15 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button call;
-    Button web;
-    Button mail;
-    Button address;
-    CardView book;
-    CardView locations;
-    CardView food;
-    CardView people;
-    CardView tours;
+    private Button call;
+    private Button web;
+    private Button mail;
+    private Button address;
+    private CardView book;
+    private CardView locations;
+    private  CardView food;
+    private  CardView people;
+    private CardView tours;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
